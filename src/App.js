@@ -1,7 +1,9 @@
 import React from "react";
 import './App.css';
-import Entry from './pages/Entry/Entrypage'
 import DefaultLayout from "./layout/DefaultLayout"
+import Dashboard  from "./pages/dashboard/Dashboard"
+{/*import Entry from './pages/Entry/Entrypage'*/}
+
 
 
 function App() {
@@ -9,7 +11,7 @@ function App() {
     <div className="App">
      {/*<Entry/>*/}
      <DefaultLayout>
-       //Dashboard 
+       <Dashboard />
       </DefaultLayout>
       </div>
   );
